@@ -53,40 +53,38 @@ const DriverModule = () => {
         </select>
 
 
-        <label class="L-vehic">Vehicle Type</label>
-        <select class="VehicleType" id="vehicle">
+        <label className="L-vehic">Vehicle Type</label>
+        <select className="VehicleType" id="vehicle">
             <option value="lorry">Lorry</option>
             <option value="bus">Bus</option>
             <option value="truck">Truck</option>
         </select>
 
-        <label class="L-WType">Work Type</label>
-        <select class="WorkType" id="Work">
+        <label className="L-WType">Work Type</label>
+        <select className="WorkType" id="Work">
             <option value=""></option>
         </select>
 
 
-        <label class="L-Jdate">Joining Date</label>
-        <input type="date" id="joindate" class="Join">
+        <label className="L-Jdate">Joining Date</label>
+        <input type="date" id="joindate" className="Join" />
 
-        <label class="L-headAddr">Address</label>
-        <hr style="border: 2px dashed black;">
-
-
-        <label class="L-state">State</label>
-        <input type="text" id="state" class="STATE" placeholder="">
+        <label className="L-headAddr">Address</label>
+        <hr style={{ border: '2px dashed black' }} />
 
 
-        <label class="L-District">District</label>
-        <input type="text" id="dist" class="Dist" placeholder="">
+        <label className="L-state">State</label>
+        <input type="text" id="state" className="STATE" placeholder="" />
 
 
+        <label className="L-District">District</label>
+        <input type="text" id="dist" className="Dist" placeholder="" />
 
-        <label class="L-Addres">Address</label>
-        <input type="text" class="addr" id="address">
+        <label className="L-Addres">Address</label>
+        <input type="text" className="addr" id="address" />
 
-        <button class="cancel1">Cancel</button>
-        <button class="next">Next</button>
+        <button className="cancel1">Cancel</button>
+        <button className="next">Next</button>
 
    </div>
    </>
